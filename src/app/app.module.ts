@@ -3,15 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import {ButtonModule} from "primeng/button";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+    imports: [
+        BrowserModule,
+        ButtonModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

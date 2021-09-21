@@ -1,0 +1,9 @@
+.navbar{
+  background-color: #6699cc;
+  height: 50px;
+}
+.navbar button{
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 100px;
+}
